@@ -63,7 +63,7 @@ The code implements a custom memory allocator using a simulated heap represented
                                 +-------------------+                |
                                          |                           v
                                          v                    +-----------------+
-                                        End                   | End             |
+                                        End                   |      End        |
                                                               +-----------------+
                               
 ```

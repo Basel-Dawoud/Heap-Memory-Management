@@ -36,7 +36,7 @@ The code implements a custom memory allocator using a simulated heap represented
                                    | No                     | Yes
                                    v                        v
                               +-------------------+    +---------------------------+
-                              | Error Handling    |    | Allocate Memory           |
+                              | Error Handling    |    |       Allocate Memory     |
                               | - Output Error    |    +---------------------------+
                               +-------------------+                |
                                         |                          |
@@ -319,9 +319,6 @@ The repository includes a stress_test and test2 for random allocation and deallo
 https://github.com/user-attachments/assets/6d6f3a6d-4479-4000-9498-6ce88c3ac70b
 
 
-Here’s a detailed `README` file for Version 2 of the HMM library, providing an overview of the library, instructions for building and using it, and a description of the implemented functions:
-
----
 
 # Heap Memory Manager (Version 2)
 
